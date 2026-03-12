@@ -1,0 +1,5 @@
+if (!title || !content) {
+ return res.status(400).json({
+   message: "Title and content are required"
+ });
+}
