@@ -38,18 +38,13 @@ Server will run at: http://localhost:5000
 API Endpoints
 Auth
 POST /api/auth/register – Register a new user
-
 POST /api/auth/login – Login user and get JWT token
-
 POST /api/token – Refresh JWT token
 
 Notes
 POST /api/notes – Create note (authenticated)
-
 GET /api/notes – Get notes (authenticated, search & pagination supported)
-
 PUT /api/notes/:id – Update note (users can update their own, admin can update any)
-
 DELETE /api/notes/:id – Delete note (users can delete their own, admin can delete any)
 
 Swagger Documentation
